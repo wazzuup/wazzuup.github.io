@@ -1,0 +1,114 @@
+body{
+	font-family:  Comic Sans,Arial, Times New Roman;
+	font-size: 15px;
+	line-height: 1.6;
+	padding: 0;
+	margin: 0;
+	background-color: #C8A2C8;
+}
+
+.container
+{
+	width: 80%
+	margin:auto;
+	overflow: hidden;
+}
+
+ul {
+
+	margin: 0;
+	padding: 0;
+}
+
+header {
+
+	background-image: linear-gradient(to right, orange, blue);
+	min-height:70px; 
+	border-top: green 3px solid;
+	border-bottom: green 3px solid ;
+	padding-top: 30px;
+
+}
+
+header a{
+	color: white;
+ 	text-decoration: none;
+ 	font-size: 25px;
+
+}
+
+header li{
+	float: left;
+	display: inline;
+	padding: 0 10px 0 10px;
+	/*top right bottom left */
+
+}
+
+header #trip1{
+
+	float: right;
+}
+
+header #links{
+
+float: left;
+
+}
+
+header .current a{
+	font-weight: bold;
+
+     color: #FFFF00;
+
+}
+
+header a:hover{
+	color: #cccccc;
+	font-weight:bold;
+}
+
+#iaias {
+	min-height: 600px;
+	background-size: 25px 25px; 
+	background:url('./iaias.png') no-repeat;
+	background-position: center;
+	border-top: black 3px solid;
+	border-bottom: black 3px solid;
+	border-left: black 4px solid;
+	border-right: black 4px solid;
+	text-align: center;
+	line-height: 0.1;
+}
+
+#iaias h2{
+	margin-top:22px;
+	font-size: 50px;
+	font-style: italic ;
+
+}
+
+#iaias p{
+
+	font-size:25px;
+
+	text-decoration-color: white;
+	float: center;
+	
+}
+
+
+button{
+
+
+	font-size: 50px;
+}
+footer {
+
+text-align: center;
+
+border: black 3px solid;
+
+}
+
+
